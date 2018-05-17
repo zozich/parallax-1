@@ -1,0 +1,247 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+body {
+    /* overflow:hidden; */
+}
+
+/* Initial font */
+body, a, blockquote{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #333333;
+	background: url(../img/body_bg.png);
+}
+#home {
+	width:100%;
+	height:auto;
+	position:relative;
+}
+
+#slides_background {
+	position: relative;
+	background-color:black;
+}
+
+#slides_background .slides-container {
+	/* display: none; */
+}
+
+#slides_background .slides-container  div,
+#slides_background .slides-container  img{
+	width:100%;
+	height:100%;
+}
+
+#slides_background_home {
+	position: relative;
+	background-color:black;
+}
+
+#slides_background_home .slides-container {
+	/* display: none; */
+}
+
+#slides_background_home .slides-container  div,
+#slides_background_home .slides-container  img{
+	width:100%;
+	height:100%;
+}
+
+#slides_background_home .slides-container .img1{
+	background:url("../img/bg1.jpg") no-repeat center fixed ;
+  	background-size: cover;
+  height: 900px;
+}
+
+#slides_background_home .slides-container .solid_bg{
+	background:#f1ad1d center fixed ;
+}
+
+.main{
+	position:absolute;
+	width:100%;
+	top:55%;
+	margin:0 auto;
+	z-index:2;
+	background: transparent;
+	height:auto;
+	min-height:300px;
+	padding-left: 70px;
+}
+
+.fullbg_bigtxt{
+	text-transform: uppercase;
+	color: white;
+	font-size: 48px;
+	margin-top: 30px;
+	font-weight: 700;
+}
+
+.fullbg_bigtxt_slider{
+	text-transform: uppercase;
+	color: white;
+	font-size: 48px;
+}
+
+.fullbg_smalltxt{
+	color: white;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+.fullgb_extratxt{
+	color: white;
+	font-weight: 700;
+	font-size: 60px;
+	background-color: rgba(0, 0, 0, 0.3);
+	border: solid 1px white;
+	padding: 25px 30px;
+	display: inline-block;
+}
+
+.fullgb_extratxt_span{
+	color: white;
+	font-weight: 700;
+	font-size: 60px;
+	border: solid 1px white;
+	padding: 25px 30px;
+	display: inline-block;
+	background-color: rgba(254, 254, 254, 1);
+}
+
+.btn_fullgb{
+	color: white;
+	text-transform: uppercase;
+	font-size: 16px;
+	border: solid 1px white;
+	padding: 15px 45px;
+	text-decoration: none;
+}
+
+.btn_fullgb:hover{
+	color: #333333;
+	background: white;
+	text-decoration: none;
+}
+.text_color{
+	color: #f1ad1d;
+}
+/* Big Title */
+.big_title{
+	margin-top: 100px;
+	margin-bottom: 155px;
+	text-align: center;
+	font-size: 0px;
+}
+.big_title_txt{
+	font-size: 22px;
+	font-weight: 700;
+	display: inline-block;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+.montserrat_font{
+	font-family: 'Montserrat', sans-serif;
+}
+.text_und_big_title{
+	font-size: 17px;
+	color: #4d4943;
+}
+.big_title_txt_separ{
+	width: 60px;
+	height: 3px;
+	display: inline-block;
+	margin-top: 35px;
+}
+
+
+
+
+/* Simple text Backgound */
+#simple_txt_background{
+	background: url(../img/bg2.jpg) no-repeat 0 0 fixed;
+	width:100%;
+	height: 100%;
+	opacity:1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+ 	background-size: cover;
+	padding: 135px 0px;
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+.big_title_txt_bg{
+	font-size: 22px;
+	color: white;
+	padding: 0 15px;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+.big_title_txt_separ_bg{
+	width: 60px;
+	height: 3px;
+	display: inline-block;
+	margin-top: 60px;
+}
+.background_color{
+	background-color: #f1ad1d;
+}
+.text-center {
+  text-align: center;
+}
+/* deatured On Section */
+#featured_section{
+	background: url(../img/bg3.jpg) no-repeat 0 0 fixed;
+	width:100%;
+	height: 100%;
+	opacity:1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+ 	background-size: cover;
+	padding: 135px 0px;
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+
+.featured_section_logos{
+	padding-top: 50px;
+}
+
+.featured_section_logo{
+	padding: 0px 25px;
+	display: inline-block;
+}
+
+/* Tweet Section */
+#tweet_section{
+	background: url(../img/bg4.jpg) no-repeat 0 0 fixed;
+	width:100%;
+	height: 100%;
+	opacity:1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+ 	background-size: cover;
+	padding: 135px 0px;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+.twitterfeed_color{
+	color: #f1ad1d;
+}
+.twitterfeed_text{
+		color: white;
+}
+#twitterfeed{
+	font-size: 18px;
+	margin-top: 30px;
+}
